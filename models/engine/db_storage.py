@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 
 """db_storage.py use database"""
@@ -100,3 +99,4 @@ class DBStorage:
     def close(self):
         """Close the session"""
         self.__session.close()
+
